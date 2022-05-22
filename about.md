@@ -44,5 +44,4 @@ Here is a list of features:
 * SSL support for irc and partyline connections (since 0.2.9)
 * partyline management of invite, exempt and reop modes. (since 0.2.12)
 
-<br>
 There are a lot of more features. Please read the documentation and the changelog.
