@@ -1,6 +1,6 @@
 ---
 title: "bc command"
-permalink: "/bc-command/"
+permalink: "/documentation/bc-command/"
 layout: page
 ---
 The .bc command (bc stands for Botnet Control) allows main owner (and only main owner) to send direct commands to one of the bots in the botnet.
