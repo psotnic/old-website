@@ -8,7 +8,9 @@ Psotnic, if compiled as dynamic, can load C++ modules. A module is a piece of co
 ## Compiling a module
 There are two ways of compiling modules: Using the makefile: After running configure, you will find a Makefile in the modules directory. If you are in that directory, you can simply run "make" and all modules will be compiled. Also, you can run make with the name of the module you want as target. If you want for example to compile vctrl:
 
-```make vctrl```
+```
+make vctrl
+```
 
 However, if you want to compile your own modules or third-party modules, you'll have to use the second method: Compiling by hand: Once you extracted the Psotnic source archive you will find modules in the modules directory. You can compile a module using the following command: g++ -o <modulename>.so <modulename>.cpp -shared For example:
 
