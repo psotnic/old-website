@@ -7,20 +7,32 @@ To run a partyline command just type "." before it otherwise, it will be recogni
 
 For example:
 
-```.help```
+```
+.help
+```
+
 Command argument semantics Mandatory arguments are written in < > tags, if you do not supply the argument command will fail. For example:
 
-```.info <handle>```
+```
+.info <handle>
+```
+
 Options that are not mandatory are written in [ ] tags, if you omit those options default value will be taken. For example:
 
-```.bots [expr] [flags]```
+```
+.bots [expr] [flags]
+```
+
 There is additional construct that looks like [%TEXT], where % is a character that has to be put before the parameter, otherwise command will fail (or it will work differently than expected). The reason of such construct is that some commands take two optional parameters, and the prefixed character is the only way to distinguish between them.
 
 For example:
 
-```.+exempt [#chan] [%time] <mask> [reason]```
+```
+.+exempt [#chan] [%time] <mask> [reason]
+```
 
 ## List of all available commands
+
 |      |       |     |
 |------|-------|-----|
 |      |       |     |
