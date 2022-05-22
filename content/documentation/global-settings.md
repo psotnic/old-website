@@ -5,10 +5,15 @@ layout: page
 ---
 To change a global setting use .set command as defined below:
 
-```.set <variable> <value>```
+```
+.set <variable> <value>
+```
+
 For example:
 
-```.set auth-time 1m```
+```
+.set auth-time 1m
+```
 
 There are 5 types of values:
 
@@ -20,19 +25,27 @@ There are 5 types of values:
 
 A boolean value can be expressed in binary notation (0 and 1) or using the strings ON and OFF. For example:
 
-```.set public-away 0```  
+```
+.set public-away 0
+```  
 
 IS EQUIVALENT TO  
 
-```.set public-away OFF```
+```
+.set public-away OFF
+```
 
 A time value can be expressed as integer (the number of seconds) or using the time notation (w=week, d=day, h=hour, m=minute, s=seconds). For example:
 
-```.set auth-time 300```
+```
+.set auth-time 300
+```
 
 IS EQUIVALENT TO  
 
-```.set auth-time 5m```
+```
+.set auth-time 5m
+```
  
 A enum value can be expressed by few predefined constants (see the table below). Other types don't need to be explained.
 
