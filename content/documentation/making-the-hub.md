@@ -7,11 +7,17 @@ The first step to make your botnet is the creation of the main bot (aka hub).
 
 Choosing a main password (ownerpass):
 
-Now, enter into the directory where you compiled the bot (eg: bin ) and create the MD5 hash of your main password using the following command: ```echo "yourpassword" | ./psotnic -p```
+Now, enter into the directory where you compiled the bot (eg: bin ) and create the MD5 hash of your main password using the following command:
+
+```
+echo "yourpassword" | ./psotnic -p
+```
 
 For example:
 
-```echo "b0tm4st3r" | ./psotnic -p```
+```
+echo "b0tm4st3r" | ./psotnic -p
+```
 
 You will have an output like this:
 ```
@@ -29,7 +35,9 @@ Take note of the MD5 hash (aa21ad108a57d28b87b8b4c05bceec57) , we will need it l
 
 Creating the configuration file: Create a new text file with your preferred editor (eg: pico). For example:
 
-```pico conf.apocalypse```
+```
+pico conf.apocalypse
+```
 
 According to config file directives fill the requested informations and paste the ownerpass saved before:
 
