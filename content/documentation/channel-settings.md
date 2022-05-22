@@ -39,24 +39,24 @@ List of all available settings with respective type and acceptable values:
 |Variable|Type  |Values|Description|
 |--------|------|------|-----------|
 |aop-bots|	time|	< 0 - Infinity>|	number of bots assigned to oping joining +ao ppl|
-|bitch|	boolean|	< ON | OFF >	|turns on/off bitch mode|
+|bitch|	boolean|	< ON \| OFF >	|turns on/off bitch mode|
 |bot-aop-bots|	time|	< 0 - Infinity>|number of bots assigned to oping joining bots|
 |bot-aop-mode|	time	|            < 0 - Infinity>|	it sets bot autop op mode, when it is set to 2, bots op like in < 0.2.7 versions (fast but insecurity - if someone pretends to be a bot, he migh get oped), when it is set to 1, bots use getop code to gain op only if the number of ppl to kick is not larger then 4, otherwise they use < 0.2.7 op code, when this setting is set to 0, bots will only use get op code (it might be useful when you really care that nobody would spoof bots hosts, but you also do not care whether bots op fast or slow). Additionally when takeover is enabled, bots will always use the fastest op mode (that is 0).|
 |channel-ctcp|	time|	< 0 - Infinity>|	description|
 |check-shit-on-nick-change|time|	< 0 - Infinity>|	description
-|clonecheck|boolean|	< ON | OFF >|	clone protection
-|dynamic-bans|boolean|	< ON | OFF >	turn ON in order to make that the bots remove the |bans from the bans list after a specific time. If set OFF the bots will not remove the bans automatically
+|clonecheck|boolean|	< ON \| OFF >|	clone protection
+|dynamic-bans|boolean|	< ON \| OFF >	turn ON in order to make that the bots remove the |bans from the bans list after a specific time. If set OFF the bots will not remove the bans automatically
 |dynamic-exempts	|boolean|	< ON - OFF >	like above but for the exempts
 |dynamic-invites|	boolean|	< ON - OFF >	like above but for the invites
-|enforce-bans|	boolean|	< ON | OFF >	turns on/off ban enforcing (=kicking ppl that are |matching placed ban)
-|enforce-limits|	boolean|	< ON | OFF >|	turns on/off limit enforcing, if somebody with +n flag places lower limit then the number of users bots will `remove' surplus
+|enforce-bans|	boolean|	< ON \| OFF >	turns on/off ban enforcing (=kicking ppl that are |matching placed ban)
+|enforce-limits|	boolean|	< ON \| OFF >|	turns on/off limit enforcing, if somebody with +n flag places lower limit then the number of users bots will `remove' surplus
 |getop-bots|	integer|	< 0 - Infinity >	|number of bots which bot will ask for op
 |guardian-bots|	percentage|	< 0 - 100 >|	number of bots which will guard channel modes
 |idiots	|integer|	< 0 - 5 >|0 off<br>1 remove +a only (if exists)<br>2 remove +a and the highest level flag. if user will have no flag we'll give him +d<br>3 remove all flags for 1st offence. 2nd time +d<br>4 +d locally<br>5 +d globally and clear flags for all other channels|
 |invite-on-unban-request|	time	|< 0 - Infinity>|	description|
 |invite_bots	|integer	|< 0 - Infinity>|	number of bots witch bot will ask for invitation|
-|keepout|	boolean|	< ON | OFF >|	when enabled, channel will be kept locked (+i), all not |added (not having +v or +o) ppl will be forced to leave :P|
-|limit	|boolean|	< ON | OFF >	|turns on/off autolimit feature|
+|keepout|	boolean|	< ON \| OFF >|	when enabled, channel will be kept locked (+i), all not |added (not having +v or +o) ppl will be forced to leave :P|
+|limit	|boolean|	< ON \| OFF >	|turns on/off autolimit feature|
 |limit-bots|	integer|	< 0 - Infinity>|	number of limit bots assigned to autolimiting|
 |limit-offset|	integer|	< 0 - Infinity>|	autolimit offset (new limit := number_of_users + this value)|
 |limit-time	|time|	< 0 - Infinity>|	autolimit recheck time|
