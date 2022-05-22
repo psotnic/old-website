@@ -61,7 +61,7 @@ For example:
 |bye	 |[reason]|	To exit from partyline giving a "reason of exit"   |
 |chaddr|	<handle\> <ip\>|	Description  |
 |channels|	|Shows all channels where are the bots    |
-|chattr|	<handle\> <flags\>   |[chan]	 |Sets the flag/s for a specific handle for a chan|
+|chattr|	<handle\> <flags\> [chan]	 |Sets the flag/s for a specific handle for a chan|
 |chhandle|	<handle\> <handle\>	 |renames handle|
 |chnick|	<bot\> <nick\>	|Changes the nick of a specific bot         |
 |chpass|	<handle\> <pass\>	   |Changes the password of a specific handle  |
