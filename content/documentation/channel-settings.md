@@ -5,23 +5,33 @@ layout: page
 ---
 To change a channel setting use .chset command as defined below:
 
-```.chset <channel> [variable] [value]```
+```
+.chset <channel> [variable] [value]
+```
 
 For example:
 
-```.chset #psotnic aop-bots 2```
+```
+.chset #psotnic aop-bots 2
+```
 
 These settings can also used to make a default configuration with .dset command: .dset variable value The default configuration will be loaded each time you join (or add) a new channel. For example:
 
-```.dset aop-bots 2```
+```
+.dset aop-bots 2
+```
 
 Also you can use .gset command to apply a single set to all channels:
 
-```.gset [variable] [value]```
+```
+.gset [variable] [value]
+```
 
 For example:
 
-```.gset aop-bots 2```
+```
+.gset aop-bots 2
+```
 
 List of all available settings with respective type and acceptable values:
 <br>
