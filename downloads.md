@@ -11,7 +11,7 @@ Please read Changelog before you upgrade!
 |------|-----------|
 |File  |Date       |
 |[psotnic-0.2.14-compile_fix.tar.gz](https://github.com/psotnic/old-releases/raw/main/psotnic-0.2.14-compile_fix.tar.gz)| (by Esio)	?|
-|[psotnic-0.2.14.tar.gz](https://github.com/psotnic/old-releases/blob/main/psotnic-0.2.14.tar.gz](https://github.com/psotnic/old-releases/raw/main/psotnic-0.2.14.tar.gz)|	December 24 2008|
+|[psotnic-0.2.14.tar.gz](https://github.com/psotnic/old-releases/raw/main/psotnic-0.2.14.tar.gz)|	December 24 2008|
 |[psotnic-0.2.14rc3.tar.gz](https://github.com/psotnic/old-releases/blob/main/psotnic-0.2.14rc3.tar.gz)|	November 22 2008|
 |[psotnic-0.2.14rc2.tar.gz](https://github.com/psotnic/old-releases/blob/main/psotnic-0.2.14rc2.tar.gz)|	November 14 2008|
 |[psotnic-0.2.14rc1.tar.gz](https://github.com/psotnic/old-releases/blob/main/psotnic-0.2.14rc1.tar.gz)|	November 07 2008|
