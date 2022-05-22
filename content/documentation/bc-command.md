@@ -81,4 +81,6 @@ cfg: adding new entry: server kwakow.irc.pl 6667
 
 NOTE: Config file changes are not saved until you explicitly save them. In order to save changes do:
 
+```
 .bc <bot> cfg-save
+```
