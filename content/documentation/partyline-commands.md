@@ -79,7 +79,7 @@ For example:
 |match |	<expr\> [flags] [chan]	|Description  |
 |mcycle|	<chan\>	   |Parts and joins the bots on a specific channel |
 |mjoin |	<chan\> [key] [delay]  |	To join all bots on a specific channel with a key  |
-|mk|	<o|n|a\> <chan\> |[lock]	|To make a mass kick (o=ops, n=non ops, a=all)|
+|mk|	<o\|n\|a\> <chan\> [lock]	|To make a mass kick (o=ops, n=non ops, a=all)|
 |mpart|	<chan\>	    |To part all bots from a specific channel       |
 |names|	<bot\> <chan\>	 |Description   |
 |offences|	[handle]	|Shows the offences of a specific handle        |
