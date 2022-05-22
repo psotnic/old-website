@@ -3,7 +3,6 @@ title: "Modules"
 permalink: "/documentation/modules"
 layout: page
 ---
-# Modules
 Psotnic, if compiled as dynamic, can load C++ modules. A module is a piece of code that implements some additional features (eg: antispam, antiflood, voicelikeop..) which can be loaded by one (or more) Psotnic bot.
 
 ## Compiling a module
