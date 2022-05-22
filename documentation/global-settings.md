@@ -1,4 +1,8 @@
-# Global settings
+---
+title: "Global settings"
+permalink: "/global-settings/"
+layout: page
+---
 To change a global setting use .set command as defined below:
 
 ```.set <variable> <value>```
