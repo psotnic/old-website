@@ -19,7 +19,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html"}
   - {file: "{{site.baseurl}}/content/about/"}
   - {file: "_site/content/downloads.md"}  
-  - {file: "./content/documentation/"}
+  - {file: "{{ site.baseurl }}{% link content/documentation.md %}"}
   - {url: "/credits/"}
   - {url: "/contact/"}
   
