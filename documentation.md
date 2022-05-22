@@ -3,7 +3,7 @@ title: "Documentation"
 permalink: "/documentation/"
 layout: page
 ---
-* compiling
+* [compiling](documentation/compiling.md)
 * config file
 * making the hub
 * logging in
