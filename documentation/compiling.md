@@ -1,4 +1,8 @@
-# Compiling
+---
+title: "Compiling"
+permalink: "/compiling/"
+layout: page
+---
 ## Requirements for compiling
 * GNU make
 * gcc and g++, both are part of the GNU Compiler Collection
