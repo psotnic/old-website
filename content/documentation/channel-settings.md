@@ -55,7 +55,7 @@ List of all available settings with respective type and acceptable values:
 |idiots	|integer|	< 0 - 5 >|0 off<br>1 remove +a only (if exists)<br>2 remove +a and the highest level flag. if user will have no flag we'll give him +d<br>3 remove all flags for 1st offence. 2nd time +d<br>4 +d locally<br>5 +d globally and clear flags for all other channels|
 |invite-on-unban-request|	time	|< 0 - Infinity>|	description|
 |invite_bots	|integer	|< 0 - Infinity>|	number of bots witch bot will ask for invitation|
-|keepout|	boolean|	< ON \| OFF >|	when enabled, channel will be kept locked (+i), all not |added (not having +v or +o) ppl will be forced to leave :P|
+|keepout|	boolean|	< ON \| OFF >|	when enabled, channel will be kept locked (+i), all not added (not having +v or +o) ppl will be forced to leave :P|
 |limit	|boolean|	< ON \| OFF >	|turns on/off autolimit feature|
 |limit-bots|	integer|	< 0 - Infinity>|	number of limit bots assigned to autolimiting|
 |limit-offset|	integer|	< 0 - Infinity>|	autolimit offset (new limit := number_of_users + this value)|
