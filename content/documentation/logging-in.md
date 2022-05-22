@@ -37,7 +37,7 @@ SSL connection works in a similar way as telnet connection, with the exception t
 
 In order to connect to hub you have to use some kind of SSL-enabled client. In the example bellow I present use ssl client from openssl ulity:
 
-````
+```
 openssl s_client -connect box1.shellprovider.com:12345
 ```
 
