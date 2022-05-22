@@ -21,13 +21,13 @@ layout: page
 **Q**: Whats the difference between static and non staic version?<br>
 **A**: Static version includes all system libraries needed to start the bot in itself, contrary to non static version witch is has library dependensies. Furthermore non static (=dynamic) binary provides dynamic module loading interface witch allows you to load custom pieces of code.<br>
 
-**Q**: I get following error: `[!] Invalid packet: 62 Barklays BanjaLuka 27 #celjani', what should i do?<br>
+**Q**: I get following error: `[!] Invalid packet: 62 Barklays BanjaLuka 27 #celjani`, what should i do?<br>
 **A**: Unlink slave to which `Barklays' is connected to.<br>
 
 **Q**: How to add psotnic to cron?<br>
 **A**: Just run `./psotnic -a conf1 conf2 conf3' and so on.<br>
 
-**Q**: Why do i get `Lost 123.123.123.123 / 12345 (Leaf123: not a slave)' error on the partyline?<br>
+**Q**: Why do i get `Lost 123.123.123.123 / 12345 (Leaf123: not a slave)` error on the partyline?<br>
 **A**: Because you have told your leaf to connect to main bot instead of the slave bot.<br>
 
 **Q**: Main's userlist is broken, can i do about it?<br>
