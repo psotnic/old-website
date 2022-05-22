@@ -30,6 +30,7 @@ layout: page
 ```
 
 ## List of user flags
+
 |Flag|Description|Privileges|
 |----|-----------|---------|	
 |x|Main owner	|full control|
