@@ -1,4 +1,8 @@
-# config file
+---
+title: "Config file"
+permalink: "/config-file/"
+layout: page
+---
 Each instance of running irc bot needs a separate configuration file. There are three types of bots
 
 * Main (also known as hub)
