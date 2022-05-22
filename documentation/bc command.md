@@ -1,4 +1,8 @@
-# bc command
+---
+title: "bc command"
+permalink: "/bc-command/"
+layout: page
+---
 The .bc command (bc stands for Botnet Control) allows main owner (and only main owner) to send direct commands to one of the bots in the botnet.
 
 By default psotnic supports only few commands, additional functionally can be easily extended by module writers.
