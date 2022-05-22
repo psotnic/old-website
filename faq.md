@@ -1,4 +1,8 @@
-# Frequently asked questions
+---
+title: "Frequently asked questions"
+permalink: "/faq/"
+layout: page
+---
 **Q**: What's new in x.y.z version?<br>
 **A**: See changelog.<br>
   
