@@ -90,7 +90,7 @@ NOTE: You should check what kind of endian does CPU in your router have, in case
 --cc-options="-fno-builtin -nostdinc++ -nodefaultlibs -Os"
 ```
 <br>
-This line forces passing "-fno-builtin -nostdinc++ -nodefaultlibs -Os" compile options to the compiler.
+This line forces passing `-fno-builtin -nostdinc++ -nodefaultlibs -Os` compile options to the compiler.
 
 NOTE: You should check what compiler options are needed for building software for your router's linux distribution. In case of openwrt, those should work :)
 
