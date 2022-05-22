@@ -67,7 +67,7 @@ The table below describes all settings with respective type and acceptable value
 |critical-bots	|integer|	< 0 - Infinity >	 |description     |
 |cycle-delay	|time	|< 0s - 60s >   |	time after the bots will enter channel after a part in a cycle     |
 |dont-trust-ops	|enum|	<0\| 1 \| 2\>	|0 : disabled<br>1 : ops (that dont have +f) can op only users that have +s or bots<br>2 : ops (that dont have +f) can op only users that have +s|
-|get-op-check	|boolean	| <ON       \| OFF\>	|description|
+|get-op-check	|boolean	| <ON \| OFF\>	|description|
 |host-clones	|integer|	<0 - Infinity>  |	number of same-host process to be recognized as clones |
 |hub-conn-delay	|time| <10s - 1h>	 |description        |
 |ident-clones	|integer| <0 - Infinity>     |	number of same-ident process to be recognized as clones    |
@@ -79,16 +79,16 @@ The table below describes all settings with respective type and acceptable value
 |perip-burst-time	 |time|	< 0s - Infinity> |	description    |
 |perip-ignore-time	|time|	< 0s - Infinity> |	description    |
 |perip-max-shown-conns	|integer	|< 0 - Infinity> |	description|
-|pre-0.2.11-final-compat	|boolean|	< ON  \ | OFF >	    |description|
-|pre-0.2.3-final-compat	|boolean|	< ON\  \ | OFF >	    |description|
+|pre-0.2.11-final-compat	|boolean|	< ON  \| OFF >	    |description|
+|pre-0.2.3-final-compat	|boolean|	< ON\  \| OFF >	    |description|
 |private-ctcp	|boolean|	< ON \| OFF >	|description|
 |proxy-clones	|integer	|< 0 - Infinity\>	  |description    |
-|public-away	|boolean|< ON  \ | OFF \>	|description|
+|public-away	|boolean|< ON  \| OFF \>	|description|
 |quarantine-time	|time| < 0s - 2m >	|description       |
 |randomness	 |percentage	|< 0% - 100%\>	   |description|
 |rejoin-delay|	time| < 0s - 60s >	  |description |
 |rejoin-fail-delay |	time	 |< 7s - 60s >	  |description|
-|remember-old-keys |	boolean|	< ON\ | OFF > |	description  |
+|remember-old-keys |	boolean|	< ON \| OFF > |	description  |
 |synflood-ignore-time|	time|	< 0s - Infinity >	 |description|
 |synflood-max-conns|	integer|	< 1 - Infinity >  |description|
 |telnet-owners	|enum|	< 0 \| 1 \| 2\>	|0 : owners are not allowed to connect via telnet<br>1 : all owners having +pt flags can connect to main via telnet<br>2 : only owners having +pt flags set and having their ip added to host list are allowed to connect|
