@@ -9,7 +9,9 @@ By default psotnic supports only few commands, additional functionally can be ea
 
 
 ## Syntax
-```.bc <bot> <command> [arguments]```
+```
+.bc <bot> <command> [arguments]
+```
 
 Where bot is the handle of bot you would like to give command to.
 
@@ -17,7 +19,9 @@ Where bot is the handle of bot you would like to give command to.
 ## Changing config file
 Viewing configuration of given bot:
 
-```.bc <bot> cfg```
+```
+.bc <bot> cfg
+```
 
 Example:
 
