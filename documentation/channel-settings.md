@@ -1,6 +1,6 @@
 ---
 title: "Channel settings"
-permalink: "/channel-settings/"
+permalink: "/channel-settingsxxx/"
 layout: page
 ---
 To change a channel setting use .chset command as defined below:
