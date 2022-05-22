@@ -1,6 +1,6 @@
 ---
 title: "Compiling"
-permalink: "/compiling/"
+permalink: "/documentation/compiling/"
 layout: page
 ---
 ## Requirements for compiling
