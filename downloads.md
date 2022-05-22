@@ -3,8 +3,6 @@ title: "Downloads"
 permalink: "/downloads/"
 layout: page
 ---
-# Downloads
-
 Please read Changelog before you upgrade!
 
 ## Releases
