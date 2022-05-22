@@ -1,6 +1,6 @@
 ---
 title: "Global settings"
-permalink: "/global-settings/"
+permalink: "/documentation/global-settings/"
 layout: page
 ---
 To change a global setting use .set command as defined below:
