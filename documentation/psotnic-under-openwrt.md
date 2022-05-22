@@ -1,4 +1,8 @@
-# psotnic under openwrt
+---
+title: "psotnic under openwrt"
+permalink: "/psotnic-under-openwrt/"
+layout: page
+---
 The compilation process of psotnic for embedded systems is a little bit more difficult than the one for ordinary linux box.
 
 In order to compile it you must have following prerequisites:
