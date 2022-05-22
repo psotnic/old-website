@@ -70,7 +70,8 @@ Copyright (C) 2003-2007 Grzegorz Rusin <grusin@gmail.com>
 
 There's also a video available that shows how compiling psotnic works.
 
-configure options While the above part was a simple and fast way to compile the standard bot, you may want to customize it a bit. This can be done by passing some extra options to the configure script:
+## configure options
+While the above part was a simple and fast way to compile the standard bot, you may want to customize it a bit. This can be done by passing some extra options to the configure script:
 
 |   a              |  b                                                                                     |
 |------------------|----------------------------------------------------------------------------------------|
