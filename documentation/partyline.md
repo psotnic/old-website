@@ -1,4 +1,8 @@
-# partyline commands
+---
+title: "Partyline commands"
+permalink: "/partyline-commands/"
+layout: page
+---
 To run a partyline command just type "." before it otherwise, it will be recognized as a chat line.
 
 For example:
