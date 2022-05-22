@@ -1,4 +1,8 @@
-# Credits
+---
+title: "Credits"
+permalink: "/credits/"
+layout: page
+---
 ## Developers
 * pks (grusin@gmail.com) - original author of psotnic
 * Esio (esio@irc.pl) - development, bug reports, initial version of polish howto
