@@ -17,38 +17,53 @@ If you are interested in compiling psotnic on openwrt please read on this.
 ## Compiling
 1\. Login into your shell and check if you have the requirements installed 2. Download the source from the psotnic project page on sourceforge or psotnic.com using wget
 
-`wget http://www.psotnic.com/src/psotnic-0.2.14.tar.gz`
+```
+wget http://www.psotnic.com/src/psotnic-0.2.14.tar.gz
+```
 
 or checkout psotnic SVN repository and proceed to step 4
 
-`svn co https://psotnic.svn.sourceforge.net/svnroot/psotnic psotnic`
+```
+svn co https://psotnic.svn.sourceforge.net/svnroot/psotnic psotnic
+```
 
 2\. Extract the archive
 
-`tar xzf psotnic-0.2.14.tar.gz`
+```
+tar xzf psotnic-0.2.14.tar.gz
+```
 
 3\. Enter into the directory
 
-`cd psotnic-0.2.14`
+```
+cd psotnic-0.2.14
+```
 
 4\. Run configure script
 
-`./configure`
+```
+./configure
+```
 
 5\. If you don't need modules then compile it as static else as dynamic (for debugging use debug):
 
-`make dynamic`
+```
+make dynamic
+```
 
 6\. Enter into bin directory and check for psotnic executable
 
-`cd bin`
-
-`./psotnic -v`
+```
+cd bin
+./psotnic -v
+```
 
 7\. You will get something like that:
 
-```Psotnic C++ edition, version current-2007/07/05-ipv6 (Aug 18 2007 13:32:31)
-Copyright (C) 2003-2007 Grzegorz Rusin <grusin@gmail.com>```
+```
+Psotnic C++ edition, version current-2007/07/05-ipv6 (Aug 18 2007 13:32:31)
+Copyright (C) 2003-2007 Grzegorz Rusin <grusin@gmail.com>
+```
 
 8\. Done here, proceed to Config file
 
