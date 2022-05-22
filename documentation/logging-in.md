@@ -1,4 +1,8 @@
-# Logging in
+---
+title: "Logging in"
+permalink: "/logging-in/"
+layout: page
+---
 There are 3 ways to login into the botnet:
 
 * Telnet
