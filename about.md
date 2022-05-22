@@ -1,4 +1,8 @@
-# About
+---
+title: "About"
+permalink: "/about/"
+layout: page
+---
 Psotnic is an IRCnet bot written in C++. The main goal of the project was to create a fast, stable and easy to use bot.
 
 Here is a list of features:
