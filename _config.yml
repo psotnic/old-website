@@ -20,8 +20,8 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "{{site.baseurl}}/content/about/"}
   - {file: "_site/content/downloads.md"}  
   - {file: "{{ site.baseurl }}{% link content/documentation.md %}"}
-  - {url: "/credits/"}
-  - {url: "/contact/"}
+  - {url: "/credits/", title: "Credits"}
+  - {url: "/contact/", title: "Contact"}
   
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:info@psotnic.com"}
