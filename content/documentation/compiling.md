@@ -9,6 +9,7 @@ layout: page
 * perl, the Practical Extraction and Report Language
 * GNU awk
 * Linux, BSD, UNIX-like OSes or Cygwin (MS Windows)
+ 
 ## Optional stuff
 * Subversion, the source version control system
 * OpenSSL with development files
