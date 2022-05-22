@@ -1,6 +1,6 @@
 ---
 title: "Making the hub"
-permalink: "/making-the-hub/"
+permalink: "/documentation/making-the-hub/"
 layout: page
 ---
 The first step to make your botnet is the creation of the main bot (aka hub).
