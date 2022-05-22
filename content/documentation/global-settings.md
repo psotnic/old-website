@@ -54,7 +54,7 @@ To see the current settings just type .set without arguments.
 The table below describes all settings with respective type and acceptable values:
 
 |Variable|Type  |Values|Description|
-|--------|------|------||
+|--------|------|------|-----------|
 |ask-for-op-delay|	time| 	<1s - 60s\>	     |after this time bot asks for op if he wasn't opped before   |
 |auth-time	|time|	< 15s - 6m >	    |all unauthorised connections are closed after this time|
 |away-time	|time|	< 1m - Infinity >	|bots will stay away for this time|
@@ -66,7 +66,7 @@ The table below describes all settings with respective type and acceptable value
 |conn-timeout	|time|	< 16s - 10m \>	  |time after witch all authorsied inacive connection are being closed|
 |critical-bots	|integer|	< 0 - Infinity >	 |description     |
 |cycle-delay	|time	|< 0s - 60s >   |	time after the bots will enter channel after a part in a cycle     |
-|dont-trust-ops	|enum|	<0\| 1 \| 2\>	|0 : disabled<br>1 : ops (that dont have +f) can op only users that have +s or bots<br>2 : ops (that dont have +f) can op only users that have +s|
+|dont-trust-ops	|enum|	<0 \| 1 \| 2\>	|0 : disabled<br>1 : ops (that dont have +f) can op only users that have +s or bots<br>2 : ops (that dont have +f) can op only users that have +s|
 |get-op-check	|boolean	| <ON \| OFF\>	|description|
 |host-clones	|integer|	<0 - Infinity>  |	number of same-host process to be recognized as clones |
 |hub-conn-delay	|time| <10s - 1h>	 |description        |
